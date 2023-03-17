@@ -1,0 +1,82 @@
+* {
+    margin: 20px 0px 0px 0px;
+    color: black;
+    text-decoration: none;
+}
+
+html {
+    background-color:rgb(81, 87, 170)
+}
+#container1 {
+    background-color: rgb(176, 180, 230);
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    font-family: Titan;
+    position: fixed;
+    margin: 0% 22.5%;
+}
+
+#uitleg {
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+}
+
+#Plaatjes {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(226, 233, 252);
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(149, 158, 180);
+}
+
+#Image {
+    border: 3x solid black;
+    border-radius: 10px; 
+}
+
+#tekstje:hover {
+    color: rgb(51, 228, 210);
+    transition-duration: 1s;
+}
+
+#tekstje {
+    font-size: 20px;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.container3 {
+    text-align: center;
+}
+
+.container4 {
+    text-align: center;
+}
+
+#gegevens {
+    justify-content: center;
+    background-color:rgb(163, 210, 241);
+    border: 1px solid black;
+    padding: 8%;
+    margin: 50px 0px 0px 0px;
+}
+
+h4 {
+    text-align: center;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'Titan';
+    src: url('resources/fonts/Titan_One/TitanOne-Regular.ttf') format('truetype');
+}
